@@ -1,0 +1,36 @@
+img {
+    position: absolute;
+    top: 11px;
+    right: 30px;
+    width: 120px;
+  height: 210px;
+  display: flex;
+  align-items: center;
+}
+
+body {
+    font-family: "MinhaFontePersonalizada", arial;
+  }
+
+h1 {
+    text-align: center;
+}
+
+p:first-of-type {
+    text-align: center;
+}
+p:nth-of-type(2) {
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(224, 218, 218);
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
